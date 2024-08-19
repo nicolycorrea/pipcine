@@ -1,0 +1,51 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+}
+
+.catalog-container {
+    padding: 20px;
+}
+
+.filme-card {
+    border: 1px solid #333;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #222;
+}
+
+.filme-card img {
+    max-width: 150px;
+    border-radius: 5px;
+    float: left;
+    margin-right: 20px;
+}
+
+.filme-info {
+    overflow: hidden;
+}
+
+.sessao-info {
+    margin-top: 10px;
+    padding-left: 170px; /* Espaço para imagem */
+}
+
+.button-comprar {
+    display: inline-block;
+    padding: 10px 15px;
+    margin-top: 10px;
+    background-color: #e50914;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.button-comprar:hover {
+    background-color: #b20710;
+}

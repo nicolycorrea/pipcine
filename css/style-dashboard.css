@@ -1,0 +1,99 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    background-color: #e50914;
+}
+
+.dashboard-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: black;
+    color: white;
+}
+
+.logo {
+    height: 100px;
+}
+
+.user-info {
+    text-align: right;
+}
+
+.user-info p {
+    margin: 0;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    flex-grow: 1;
+}
+
+.card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 50px;
+    width: 200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.card h3 {
+    margin-top: 0;
+    font-size: 18px;
+}
+
+.card img.card-image {
+    width: 100%;
+    border-radius: 10px 10px 0 0; /* Faz com que a parte superior da imagem tenha bordas arredondadas */
+    margin-bottom: 15px; /* Espaço entre a imagem e o título */
+}
+
+.card p {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #b20710;
+}
+
+.button-sair {
+    background-color: #e50914;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 16px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.button-sair:hover {
+    background-color: #d40813;
+}

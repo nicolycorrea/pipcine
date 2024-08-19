@@ -1,0 +1,61 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    background-color: black;
+}
+
+.form-container {
+    width: 100%;
+    max-width: 600px; /* Aumentado para dar mais espaço para os campos de texto */
+    margin: 50px auto;
+    padding: 30px; /* Aumentado para deixar mais espaço interno */
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px; /* Aumentado para dar mais espaço entre os campos */
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px; /* Aumentado para melhor espaçamento entre o rótulo e o campo */
+}
+
+.form-group input, 
+.form-group textarea {
+    width: calc(100% - 20px); /* Reduzido para criar uma margem interna */
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-group textarea {
+    resize: vertical; /* Permite que a altura do campo de texto seja ajustada pelo usuário */
+}
+
+.button {
+    width: 100%;
+    padding: 15px; /* Aumentado para um botão mais robusto */
+    background-color: #e50914;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.button:hover {
+    background-color: #b20710;
+}
